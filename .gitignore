@@ -1,0 +1,7 @@
+*.crt
+*.key
+*.jks
+*.srl
+*.csr
+*.p12
+hosts

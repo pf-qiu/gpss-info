@@ -12,6 +12,8 @@ echo "export storepass=123456"
 exit 1
 fi
 
+git clean -xdf $(dirname "${BASH_SOURCE[0]}")
+
 # Generate root certificate authority.
 openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 \
   -subj "/C=US/ST=State/L=Locality/O=Pivotal/CN=rootca" \

@@ -7,3 +7,8 @@ GPSS supports Kafka with SSL and SASL(Kerberos) enabled. Here is some informatio
 - [Extract private key and certificate from exist JKS](kafka_jks_to_gpss.md)
 - [Configure Kerberos authentication for Kafka cluster and GPSS](kafka_krb.md)
 - [Enable both SSL and Kerberos at the same time](kafka_krb_ssl.md)
+
+If you have openssl, openjdk-1.8, docker installed, you can clone this repo and run following command to quickly setup a cluster with zookeeper, 4 kafka brokers, kdc.
+```
+./start_kafka_cluster.bash 4
+```
