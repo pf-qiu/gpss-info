@@ -172,10 +172,10 @@ Edit job.yml, add these properties under KAFKA section:
 ```
 KAFKA:
   PROPERTIES:
-     security.protocol: SASL_PLAINTEXT
-     sasl.kerberos.service.name: kafka
-     sasl.kerberos.keytab: /path/to/etl.keytab
-     sasl.kerberos.principal: kafka/etl@GPDF.CI
+    security.protocol: sasl_plaintext
+    sasl.kerberos.service.name: kafka
+    sasl.kerberos.keytab: /path/to/etl.keytab
+    sasl.kerberos.principal: kafka/etl@GPDF.CI
 ```
 b. If gpss process doesn't have access to keytab file
 Login with privileged user and obtain a credential cache.
