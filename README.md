@@ -5,5 +5,5 @@ GPSS supports Kafka with SSL and SASL(Kerberos) enabled. Here is some informatio
 
 - [Configure SSL for Kafka Cluster](kafka_ssl.md)
 - [Extract private key and certificate from exist JKS](kafka_jks_to_gpss.md)
-- [Configure Kerberos for Kafka cluster](kafka_krb.md)
+- [Configure Kerberos authentication for Kafka cluster and GPSS](kafka_krb.md)
 - [Enable both SSL and Kerberos at the same time](kafka_all.md)
