@@ -6,10 +6,10 @@ if [ "$#" -ne 4 ]; then
 fi
 
 # Define CN variable
-root_cn=rootca1
-inter_cn=interca1
-server_cn=server1
-client_cn=client1
+root_cn=$1
+inter_cn=$2
+server_cn=$3
+client_cn=$4
  
 # Generate root certificate authority.
 openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 \

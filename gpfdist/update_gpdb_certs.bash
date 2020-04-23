@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -ne 1 ]; then
-  echo "Usage: $0 path_of_server1_cert"
+  echo "Usage: $0 path_of_server_cert"
   exit 1
 fi
 

@@ -17,13 +17,13 @@ Prepare SSL certificate folder for server1 and server2
 
    - Generate root certificate and intermediate certificate, in ${path_of_server1_cert}, run
 
-         gen_root_cert.bash
+          gen_root_cert.bash
 
-    - Generate server and client certificates for server1, run
+   - Generate server and client certificates for server1, run
     
           gen_sc_certs.bash server1 client1
 
-    - Copy root and intermediate CA to  ${path_of_server2_cert} and generate server and client certificates for server2, run
+   - Copy root and intermediate CA to  ${path_of_server2_cert} and generate server and client certificates for server2, run
     
      	  gen_sc_certs.bash server2 client2
 
