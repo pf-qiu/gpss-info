@@ -60,7 +60,7 @@ take server1 for example.
 #### 3. You can also run curl command to verify server side certificate
     curl -H "X-GP-PROTO: 1"  https://${server1}:${server1_port}/${data_file} -v --cert ${path_of_server1_cert}/client.crt --key ${path_of_server1_cert}/client.key --cacert ${path_of_server1_cert}/root.crt
 
-### Load data from ETL servers
+## Load data from ETL servers
 #### update certificates of all GPDB segments  
    suppose we use server1's certificates, run  
 
