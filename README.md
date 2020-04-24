@@ -12,3 +12,7 @@ If you have openssl, openjdk-1.8, docker installed, you can clone this repo and 
 ```
 ./start_kafka_cluster.bash 4
 ```
+
+If you have question about gpfdist SSL connection, please refer to the following documentation:
+
+- [configure gpfdists connection with multiple certificates](gpfdist/README.md)
